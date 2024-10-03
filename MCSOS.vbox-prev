@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.19-windows">
-  <Machine uuid="{a10b12d5-245d-4166-bebe-8153d7d208ab}" name="MCSOS" OSType="Debian_64" snapshotFolder="Snapshots" lastStateChange="2024-10-03T07:23:59Z">
+  <Machine uuid="{a10b12d5-245d-4166-bebe-8153d7d208ab}" name="MCSOS" OSType="Linux_64" snapshotFolder="Snapshots" lastStateChange="2024-10-03T07:27:51Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{ca251014-3d9a-4335-9160-0bf7c0f65e0d}" location="MCSOS.vdi" format="VDI" type="Normal"/>
@@ -45,10 +45,11 @@
       <RTC localOrUTC="UTC"/>
       <Clipboard/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="ja_JP" timestamp="1727940244554829900" flags="RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxRev" value="156879" timestamp="1727940044114300802" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxVer" value="7.0.8" timestamp="1727940044114300800" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxVerExt" value="7.0.8" timestamp="1727940044114300801" flags="TRANSIENT, RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="ja_JP" timestamp="1727940519226554700" flags="RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/VBoxRev" value="156879" timestamp="1727940471572323602" flags="TRANSIENT, RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/VBoxVer" value="7.0.8" timestamp="1727940471572323600" flags="TRANSIENT, RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/VBoxVerExt" value="7.0.8" timestamp="1727940471572323601" flags="TRANSIENT, RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/VMInfo/ResetCounter" value="1" timestamp="1727940516356679800" flags="TRANSIENT, RDONLYGUEST"/>
       </GuestProperties>
       <StorageControllers>
         <StorageController name="IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true">
