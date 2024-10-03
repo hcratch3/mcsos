@@ -6,12 +6,16 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.19-windows">
-  <Machine uuid="{a10b12d5-245d-4166-bebe-8153d7d208ab}" name="MCSOS" OSType="Debian_64" snapshotFolder="Snapshots" lastStateChange="2024-10-03T07:06:44Z">
+  <Machine uuid="{a10b12d5-245d-4166-bebe-8153d7d208ab}" name="MCSOS" OSType="Debian_64" snapshotFolder="Snapshots" lastStateChange="2024-10-03T07:24:06Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{ca251014-3d9a-4335-9160-0bf7c0f65e0d}" location="MCSOS.vdi" format="VDI" type="Normal"/>
       </HardDisks>
     </MediaRegistry>
+    <ExtraData>
+      <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
+      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="640,280,720,439"/>
+    </ExtraData>
     <Hardware>
       <CPU>
         <PAE enabled="false"/>
@@ -40,6 +44,9 @@
       <AudioAdapter codec="AD1980" useDefault="true" driver="WAS" enabled="true" enabledOut="true"/>
       <RTC localOrUTC="UTC"/>
       <Clipboard/>
+      <GuestProperties>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="ja_JP" timestamp="1727940244554829900" flags="RDONLYGUEST"/>
+      </GuestProperties>
       <StorageControllers>
         <StorageController name="IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true">
           <AttachedDevice passthrough="false" type="DVD" hotpluggable="false" port="1" device="0"/>
